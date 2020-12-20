@@ -1,0 +1,438 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.small-facility {
+    display: none;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0);
+    transition: background 1.5s;
+}
+
+.navbar-on {
+    background: rgba(0, 0, 0, 1);
+}
+
+#navbar {
+    top: -50px;
+    transition: 0.4s;
+}
+
+#logo {
+    width: 200px;
+    transition: 0.4s;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.det-title {
+    color: #6ab446;
+}
+
+.feature-title {
+    display: block;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+.header {
+    position: relative;
+    margin-bottom: 0;
+    overflow-y: hidden;
+}
+
+.button-more {
+    display: block;
+    margin: 5% auto;
+}
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description h1 {
+    color: #6ab446;
+}
+
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.description button {
+    border: 1px solid #6ab446;
+    background: #6ab446;
+    border-radius: 0;
+    color: #fff;
+}
+
+.brand-name {
+    background-color: #589b37;
+}
+
+.description button:hover {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+}
+
+.test {
+    position: relative;
+}
+
+.test img {
+    z-index: 0;
+}
+
+.splide {
+    color: white;
+    background-color: red;
+    z-index: 1;
+}
+
+.test .btn {
+    position: absolute;
+    border-style: solid;
+    border-color: white;
+    border-width: 1rem;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.black-screen {
+    position: fixed;
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1031;
+}
+
+.black-screen-off {
+    display: none;
+}
+
+.about-us {
+    font-size: 1.5em;
+}
+
+.jumbotron-fluid {
+    padding: 0;
+    margin-top: 0;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.feature-header {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-family: custom;
+}
+
+.facility-page-item,
+.facility-page-item-special1,
+.facility-page-special2 {
+    margin: 0px 0px 70px 0;
+}
+
+.facility-page-special2 {
+    display: none;
+}
+
+.accordion {
+    background: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    background-color: white;
+}
+
+.partofus {
+    background-color: white;
+    text-align: center;
+    font-family: custom;
+    padding: 30px 0;
+}
+
+.partofus-content h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.partofus-content button {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.feature-title {
+    color: #6ab446;
+    font-size: 1.5rem;
+    font-kerning: normal;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.facility-container {
+    margin: 20px 0 10px 0;
+}
+
+.facility-more {
+    background: none;
+    border-width: 0.2rem;
+    border-color: white;
+    border-right-width: 0;
+    border-left-width: 0;
+    color: white;
+    transition: background color 0.4s;
+}
+
+.facility-more:hover {
+    background-color: white;
+    color: black;
+}
+
+#feature {
+    margin-bottom: 0;
+}
+
+.facility-description {
+    margin: 40px 30px;
+}
+
+.facility-title h1 {
+    color: white;
+    font-size: 5rem;
+    font-kerning: auto;
+    font-family: custom;
+}
+
+.facility-title p {
+    font-size: 1.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.facility-detail {
+    color: white;
+    width: 100%;
+}
+
+.listofclub {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 2rem 1.25rem;
+}
+
+.listofclub:hover {
+    background-color: white;
+    color: black;
+}
+
+.question {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 2rem 1.25rem;
+}
+
+.club-header-descript-text {
+    font-family: gill2;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+.search-form {
+    width: 20rem;
+    margin: 30px auto;
+}
+
+@font-face {
+    font-family: custom;
+    src: url("BAD GRUNGE.ttf");
+}
+
+@font-face {
+    font-family: gill;
+    src: url("GILSANUB.TTF");
+}
+
+@font-face {
+    font-family: gill2;
+    src: url("GILLUBCD.TTF");
+}
+
+@font-face {
+    font-family: tilt;
+    src: url("built titling el.ttf");
+}
+
+.your-class {
+    color: white;
+}
+
+.des {
+    background: none;
+}
+
+.des p {
+    color: white;
+}
+
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+}
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.facility {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.facility-list2 {
+    margin-top: 60px;
+}
+
+.facility-list1 {
+    margin-top: 0px;
+}
+
+.features .btn {
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.page-footer {
+    background-color: white;
+    color: black;
+    padding: 60px 0 30px;
+}
+
+.feature-item p {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+.card title {
+    font-family: tilt;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+    .description {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 60%;
+        margin-left: -50px;
+        top: 50%;
+        margin-top: -50px;
+    }
+    .description h1 {
+        font-size: 2em;
+    }
+    .description p {
+        font-size: 1.2rem;
+    }
+    .feature-item {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 585px) {
+    .facility-page-special2 {
+        display: block;
+    }
+    .facility-page-item-special1 {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .small-facility {
+        display: block;
+        margin-top: 0;
+    }
+    .facility-container {
+        display: none;
+    }
+}
+
+@media (min-width: 575.99px) and (max-width: 1000px) {
+    .description {
+        height: 100px;
+        width: 200px;
+        position: absolute;
+        left: 55%;
+        margin-left: -50px;
+        top: 50%;
+        margin-top: -50px;
+    }
+    .description p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+    .feature-item {
+        margin: 30px auto;
+    }
+}
