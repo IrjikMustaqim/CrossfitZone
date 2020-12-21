@@ -96,3 +96,8 @@ $(document).ready(function() {
 
 
 
+$(window).load(() => {
+    $(".black-screen").animate({ opacity: '0' }, 1000, () => {
+        $(".black-screen").addClass("black-screen-off");
+    })
+});
